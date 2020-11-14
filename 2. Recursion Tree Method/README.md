@@ -15,20 +15,20 @@
 	5. Suitable for recurrences with <b>MANY</b> recursive terms.
 	
 ## Steps 
- - Draw the tree for at least three levels.
- - Calculate number of levels.
-	  - Find the pattern.
-	  - When will the tree stop branching ? at the base case.
-	  - solve the equation to find L as function of N _usually_.
- - Calculate complexity of each level.
-	 - The complexity of one the first level is usually the F(N) _the non recursive part_.
-	 - Find the complexity pattern for all the levels.
-	 - Is the pattern related to N? Does it change in each level? 
- - Calculate complexity of LAST level.
-	 - Complexity/Last_level = number of nodes in the last level * base case complexity
-	 - Balanced or not? if Not Balanced then #nodes = 1, because if it ended somewhere there will be no other branches at the same level.
-	 - Balanced or not? if Balanced then how many node will be at level L? _Usually #last_nodes = #second level nodes ^ L_.
- - Total = sum of all levels.
+1. Draw the tree for at least three levels.
+ 2. Calculate number of levels.
+- Find the pattern.
+- When will the tree stop branching ? at the base case.
+- solve the equation to find L as function of N _usually_.
+ 3. Calculate complexity of each level.
+ - The complexity of one the first level is usually the F(N) _the non recursive part_.
+- Find the complexity pattern for all the levels.
+- Is the pattern related to N? Does it change in each level? 
+ 4. Calculate complexity of LAST level.
+ - Complexity/Last_level = number of nodes in the last level * base case complexity
+- Balanced or not? if Not Balanced then #nodes = 1, because if it ended somewhere there will be no other branches at the same level.
+ - Balanced or not? if Balanced then how many node will be at level L? _Usually #last_nodes = #second level nodes ^ L_.
+ 5. Total = sum of all levels.
 
 ### Examples
 #### problem 1
