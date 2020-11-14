@@ -1,5 +1,6 @@
 # Algorithms-College-Study-Notes
 
+- RECOMMENDED : Download the html version.
 
 ## Topics 
 
