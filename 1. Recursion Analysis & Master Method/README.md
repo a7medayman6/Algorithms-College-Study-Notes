@@ -1,3 +1,4 @@
+
 # Algorithms - Recursion  Analysis & Master Method
 
 ### Used Notations 
@@ -32,36 +33,37 @@ return Fib(N-1) + Fib(N-2)	# recursive case
 ## Master Method
 
 #### NOTE:  *SUITABLE ONLY FOR RECURRENCES IN THE FOLLOWING FORM*
- - $$T(n) = a T(n/b)  + F(n^d)$$  
- - $$T(Base) = Theta(1)$$
- - $$a > 0$$
- - $$b > 1$$
- - $$d>=0$$
+ - T(n) = a T(n/b)  + F(n^d)
+ - T(Base) = Theta(1)
+ - a > 0
+ - b > 1
+ - d>=0
  
  ### Master Theorem 
-$$F(n)$$ 
-$$VS$$  
-$$n^(log(b, a))$$
+						F(n) VS n^(log(b, a))
 
 ##### FORMAL CASES:
  - Case 1
  
-	 If $$f(n) = O(n^ (log(b, a-ϵ))$$ then $$T(n) = Θ(n^(log(b, a)))$$
+	 If f(n) = O(n^ (log(b, a-ϵ)) then T(n) = Θ(n^(log(b, a)))
 - Case 2
-	If $$F(n) = Θ(n^(log(b, a)))$$ then $$T(n) = Θ(n^(log(b, a)) * log(b, n))$$
+	If F(n) = Θ(n^(log(b, a))) 
+	then T(n) = Θ(n^(log(b, a)) * log(b, n))
 - Case 3
- If $$F(n) = Ω(n^(log (b, a+ϵ)))$$ AND $$a*F( n / b ) < c*F( n )$$ for large n 
-then $$T(n) = Θ(F(n))$$
+ If F(n) = Ω(n^(log (b, a+ϵ))) AND a*F( n / b ) < c*F( n ) for large n 
+then T(n) = Θ(F(n))
 
 ##### EASIER WAY:
 - Case 1
- If $$d < log(b, a)$$ AND $$ a*F( n / b ) < c*F( n ), for - large - n$$
-  then $$T(n) = Θ(n^(log(b, a))$$
+ If d < log(b, a) AND  a*F( n / b ) < c*F( n ), for - large - n
+  then T(n) = Θ(n^(log(b, a))
 
 - Case 2
-	If $$d = log(b, a)$$ then $$T(n) = Θ(F(n) log(n))$$
+	If d = log(b, a)
+	then T(n) = Θ(F(n) log(n))
 - Case 3
- If $$d > log(b, a)$$ then $$T(n) = Θ(F(n))$$
+ If d > log(b, a)
+  then T(n) = Θ(F(n))
 
 
 ### STEPS	:
