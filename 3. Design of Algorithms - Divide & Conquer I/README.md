@@ -31,7 +31,7 @@ Master Method : Case #2 - > T(N) = Theta(N Log N).
 5. Repeat step 4 until the two arrays are empty.
 
 ### Example
-![Merge Sort](https://github.com/a7medayman6/Algorithms-College-Study-Notes/blob/master/Design%20of%20Algorithms%20-%20Divide%20%26%20Conquer%20I/Images/mergesortexample.gif)
+![Merge Sort](https://github.com/a7medayman6/Algorithms-College-Study-Notes/blob/master/3.%20Design%20of%20Algorithms%20-%20Divide%20%26%20Conquer%20I/Images/mergesortexample.gif)
 
 ## Pseudocode
 ```
